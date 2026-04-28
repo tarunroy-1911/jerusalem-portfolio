@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color:white;
+    padding-top:100px;
+}
+
+/* Navbar */
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:#3c3a3a;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 8%;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.nav-links a:hover{
+    color:yellow;
+}
+
+/* Hero */
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:80px 8%;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+}
+
+.hero-image img{
+    width:300px;
+    border-radius:15px;
+}
+
+/* Button */
+.btn{
+    background:yellow;
+    padding:10px 20px;
+    border-radius:20px;
+    color:black;
+}
+
+/* Section */
+.section{
+    padding:50px 8%;
+}
+
+/* Card */
+.card{
+    background:#3f3f3f;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    transition:0.3s;  /* FIXED */
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+/* Form */
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:10px;
+    border:none;
+}
+
+/* Footer FIXED */
+footer{
+    background:#3f3f3f;
+    text-align:center;
+    padding:20px;
+}
